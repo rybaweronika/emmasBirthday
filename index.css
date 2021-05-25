@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(182, 136, 163); 
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 2rem;
+    
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem;
+}
+
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+}
+
+.party {
+    height: 50vh;
+}
+
